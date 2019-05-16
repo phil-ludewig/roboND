@@ -1,0 +1,18 @@
+# DO NOT DELETE
+
+# Changing the python default PATH
+export PATH=/usr/bin:$PATH
+# Changing the default directory of every terminal to /home/workspace 
+cd /home/workspace
+# submit and check_jobs funtions
+submit()
+{
+    /home/workspace/opt/cmd_ud/submit.sh.x
+}
+export -f submit
+
+check_jobs()
+{
+    /home/workspace/opt/cmd_ud/check_jobs.sh.x
+}
+export -f check_jobs

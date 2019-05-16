@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/phil/kuka_project/catkin_ws/install/setup.sh
